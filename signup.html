@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <!-- CSS styles-->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/signup.css">
+</head>
+<body>
+  <div>
+     <img class="background" src="background/background.jpg">
+  </div>
+  <!--Header-->
+    <div class="header">
+        <div class="left-section">
+            <img class="bfar-logo" src="logo/bfar-logo.png">
+            <p class="bfar-title">BFAR PORTAL</p>
+        </div>
+    </div>
+    
+        <!--Sign Up Page-->
+        <section class="form">
+            <header>Sign Up Form</header>
+            <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+                <div class="user">
+                    <div class="user-details">
+                        <div class="field input">
+                            <label>Last Name</label>
+                            <input type="text" name="fname" placeholder="Last name" required>
+                        </div>
+                        <div class="field input">
+                            <label>First Name</label>
+                            <input type="text" name="lname" placeholder="First name" required>
+                        </div>
+                    </div>
+                    <div class="email-details">
+                        <div class="field input">
+                            <label>Email Address</label>
+                            <input type="text" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="field input">
+                            <label>Password</label>
+                            <input type="password" name="password" placeholder="Enter new password" required>
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <label>Select Image</label>
+                        <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
+                    </div>
+                </div>
+            </form>
+        </section>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register and LogIn Page</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <!-- CSS styles-->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+  <div>
+     <img class="background" src="background/background.jpg">
+  </div>
+  <!--Header-->
+  <div class="header">
+    <div class="left-section">
+      <img class="bfar-logo" src="logo/bfar-logo.png">
+      <p class="bfar-title">BFAR PORTAL</p>
+    </div>
+    <div class="right-section">
+      <p class="about">About</p>
+      <p class="contact">Contact</P>
+    </div>
+    
+    <!--LogIn Page-->
+    <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+        <div class="overlay">
+            <div class="login-container">
+                <div class="login-bfar-title">
+                    <img class="login-bfar-logo" src="logo/bfar-logo.png">
+                    BFAR PORTAL
+                </div>
+                <div class="login-form">
+                    <div class="email">
+                        Email Address
+                        <input class="email-input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="password">
+                        Password
+                        <input class="password-input" placeholder="Enter your password" type="password" required>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="button">
+                        <input type="submit" name="submit" value="Log in">
+                    </div>
+                    <div class="link">Not yet signed up? <a href="index.html">Signup now</a></div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>

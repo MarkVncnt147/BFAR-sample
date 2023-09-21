@@ -1,0 +1,75 @@
+.overlay{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 70px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.register-login-container{
+    background-color: aliceblue;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
+    border: none;
+    border-radius: 20px;
+}
+.register-login-title{
+    width: 380px;
+    text-align: center;
+    color: rgb(6,85,188);
+    font-size: 36px;
+    font-family: DM Sans;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.register-login-button {
+    display: flex;
+    flex-direction: row;
+}
+.register-btn{
+    display: flex;
+    padding: 28px 40px 28px 40px;
+    border: none;
+    border-radius: 47px;
+    background-color: rgb(6,85,188);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: DM Sans;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.register-btn:hover {
+    background-color: transparent;
+    font-weight: 500;
+    color: rgb(6,85,188);
+    border: 2px solid rgb(6,85,188);
+}
+.login-btn{
+    display: flex;
+    padding: 25px 68px 0 67px;
+    border-radius: 47px;
+    border: 2px solid rgb(6,85,188);
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(6,85,188);
+    font-size: 20px;
+    font-family: DM Sans;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.login-btn:hover {
+    color: white;
+    background-color: rgb(6,85,188);
+}
